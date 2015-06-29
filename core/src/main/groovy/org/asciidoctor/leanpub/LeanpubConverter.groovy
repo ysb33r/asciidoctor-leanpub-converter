@@ -498,7 +498,7 @@ class LeanpubConverter extends AbstractMultiOutputTextConverter {
             table.footer.size()
         )
         def tableAttrs = [:]
-
+println "FOR ROBERT: ***** ${node.getAttributes()}"
         // TODO: Work out what the width is and if not set the value will be 'default'
         tableAttrs['width'] = 'default'
 
