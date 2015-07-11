@@ -12,7 +12,7 @@ abstract class AbstractMarkdownConverter extends AbstractConverter {
 
     static final String LINESEP = "\n"
 
-    AbstractMarkdownConverter(final String backend,Map<Object, Object> opts) {
+    AbstractMarkdownConverter(final String backend,Map<String, Object> opts) {
         super(backend, opts)
     }
 
