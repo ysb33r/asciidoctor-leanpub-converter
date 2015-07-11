@@ -19,7 +19,7 @@ import java.util.regex.Pattern
 @Slf4j
 abstract class AbstractMultiOutputMarkdownConverter extends AbstractMarkdownConverter {
 
-    AbstractMultiOutputMarkdownConverter(final String backend,Map<Object, Object> opts) {
+    AbstractMultiOutputMarkdownConverter(final String backend,Map<String, Object> opts) {
         super(backend, opts)
     }
 
