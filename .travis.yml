@@ -3,7 +3,7 @@ sudo: true
 jdk:
 - oraclejdk8
 install: true
-script: ./gradlew -S -Pskip.signing build artifactoryPublish bintrayUpload -PbintrayUsername=$BINTRAY_USER
+script: ./gradlew -S -Pskip.signing build artifactoryPublish bintrayUpload leanpubBook -PbintrayUsername=$BINTRAY_USER
   -PbintrayApiKey=$BINTRAY_KEY
 before_cache:
 - rm -f $HOME/.gradle/caches/modules-2/modules-2.lock
